@@ -16,33 +16,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+ <!--Navigation -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img id="logo" src="/logo.jpg" alt="">
+        
+        <a class="navbar-brand" href="index.php">
+            <img id="logo" src="/natalia/new/logo.jpg"  width="70" height="70" class="d-inline-block align-top" alt="logo">
         </a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+            <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+       </button>
+        
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home
+                    <a class="nav-link" href="index.php">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="meat.html">Meat</a>
+                    <a class="nav-link" href="meat.php">Meat</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="seafood.html">Seafood</a>
+                    <a class="nav-link" href="seafood.php">Seafood</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pizzaPasta.html">Pizza & Pasta</a>
+                    <a class="nav-link" href="pizzaPasta.php">Pizza & Pasta</a>
                 </li>
             </ul>
         </div>
+
     </div>
 </nav>
+
+
