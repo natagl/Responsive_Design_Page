@@ -1,0 +1,36 @@
+/* Navbar */
+#logo {
+    width: 50px;
+    height: ;
+}
+/* Footer */
+.footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+ 
+.footer a {
+  color: #70726F;
+  font-size: 16px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+  
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+  background-color: ;
+}
+  
+.footer a:hover {
+  color: white;
+}
+wid
+
